@@ -1,5 +1,21 @@
 
 .projects{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+#ux{
+    color: orange;
+}
+.project{
+    outline: 1px red solid;
+    color: green;
+}
+
+#home .project{
+    color:blueviolet;
+}
+
+.site-footer{
+    display: flex;
+    justify-content: space-around;
 }
